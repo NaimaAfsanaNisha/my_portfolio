@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Naima Afsana Nisha | Portfolio</title>
+  <!-- Bootstrap CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+   body {
+  
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(120deg, #08f8e4, #e8e9ec);
+    color: #0c0b0b;
+    }
+
+
+    /* Navbar */
+    .navbar {
+      background-color: #eef1f5;
+    }
+
+    .navbar-brand, .nav-link {
+      color: #0f0f0f !important;
+    }
+
+    .nav-link:hover {
+      color: #0d6efd !important;
+    }
+
+    /* Hero Section */
+    .hero {
+     background: linear-gradient(135deg, #007bff, #6610f2, #0dcaf0);
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    }
+
+    
+
+    .hero img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+      border: 3px solid white;
+    }
+
+    /* About Section */
+    #about {
+      padding: 80px 0;
+    }
+
+    /* Skills Buttons */
+    .skill-btn {
+      margin: 5px;
+    }
+
+    /* Project Cards */
+    .project-card img {
+      height: 200px;
+      object-fit: cover;
+    }
+
+    /* Footer */
+    footer {
+      background: #0d1117;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">Naima Afsana Nisha</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div
+        class="collapse navbar-collapse justify-content-end"
+        id="navbarNav"
+      >
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <img src="./nisha.jpeg" alt="Naima Afsana Nisha" />
+      <h1 class="fw-bold">Hi, I'm Naima Afsana Nisha</h1>
+      <p class="lead">A Passionate Web Developer</p>
+      <a href="#projects" class="btn btn-light btn-lg mt-3">View My Projects</a>
+    </div>
+  </section>
+
+  <!-- About Me Section -->
+  <section id="about" class="container text-center">
+    <h2 class="fw-bold mb-4">About Me</h2>
+    <p class="lead mx-auto" style="max-width: 800px;">
+      I am a passionate web developer with hands-on experience in HTML, CSS, JavaScript, PHP, Laravel, MySQL, and Bootstrap. 
+      I started learning web development at BDCalling Academy and continuously strive to improve my skills to become a successful developer.
+    </p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="py-5 text-center">
+    <div class="container">
+      <h2 class="fw-bold mb-4">My Skills</h2>
+      <div>
+        <button class="btn btn-outline-primary skill-btn">HTML</button>
+        <button class="btn btn-outline-primary skill-btn">CSS</button>
+        <button class="btn btn-outline-primary skill-btn">JavaScript</button>
+        <button class="btn btn-outline-primary skill-btn">Bootstrap</button>
+        <button class="btn btn-outline-primary skill-btn">PHP</button>
+        <button class="btn btn-outline-primary skill-btn">Laravel</button>
+        <button class="btn btn-outline-primary skill-btn">MySQL</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="container py-5">
+    <h2 class="text-center fw-bold mb-5">My Projects</h2>
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-3">
+        <div class="card project-card shadow-sm">
+          <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Project 1" />
+          <div class="card-body text-center">
+            <h5 class="card-title">Project 1</h5>
+            <p class="card-text">A responsive website built using HTML, CSS, and JavaScript.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3">
+        <div class="card project-card shadow-sm">
+          <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Project 2" />
+          <div class="card-body text-center">
+            <h5 class="card-title">Project 2</h5>
+            <p class="card-text">A PHP & Laravel-based CRUD application for managing data efficiently.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3">
+        <div class="card project-card shadow-sm">
+          <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Project 3" />
+          <div class="card-body text-center">
+            <h5 class="card-title">Project 3</h5>
+            <p class="card-text">A Bootstrap-powered portfolio showcasing design creativity.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3">
+        <div class="card project-card shadow-sm">
+          <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Project 4" />
+          <div class="card-body text-center">
+            <h5 class="card-title">Project 4</h5>
+            <p class="card-text">A dynamic website integrated with MySQL for data management.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class=" py-5 text-center">
+    <div class="container">
+      <h2 class="fw-bold mb-4">Get in Touch</h2>
+      <p class="lead">I’m open to collaborations and new opportunities. Let’s connect!</p>
+      <p>
+        📧 <a href="mailto:bijoynisha143@gmail.com" class="text-decoration-none">bijoynisha143@gmail.com</a><br />
+        🔗 <a href="https://www.linkedin.com/in/naima-afsana-nisha-7897b6357/" target="_blank" class="text-decoration-none">LinkedIn: Naima Afsana Nisha</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Naima Afsana Nisha. All Rights Reserved.</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
